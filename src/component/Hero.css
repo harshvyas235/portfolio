@@ -1,0 +1,17 @@
+.custom-shape {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #635fc7; /* Match the background color to your shape */
+    clip-path: ellipse(50% 40% at 50% 50%); /* Adjust the shape as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-image {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+  }
+  

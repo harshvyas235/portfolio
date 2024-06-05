@@ -1,0 +1,8 @@
+/* About.css */
+.about-image {
+    width: 344px;
+    height: 344px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    /* border-radius: 50%; Optional: to make the image round */
+  }
+  
