@@ -51,6 +51,8 @@ import { data as navlinkData } from "../data/navlinkData";
 import { Hero } from './Hero';
 import { About } from './About';
 import { Skill } from './Skill';
+import './About.css';
+
 
 export const Navbar = () => {
   const [data, setData] = useState(navlinkData);
@@ -86,7 +88,14 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
+
+      
        </div>
+
+       <p className='text-red-600 z-40 fixed top-0 animate-marquee'> *Currently working on this portfolio* </p>
+
+
+      
      
      
      <div className=' w-[968px]  pt-[5.2rem] flex items-center'>
